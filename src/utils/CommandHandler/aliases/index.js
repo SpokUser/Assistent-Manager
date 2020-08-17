@@ -1,3 +1,3 @@
-module.exports = class Aliases = {
+module.exports = class Aliases => {
     //Em Breve...
 }
