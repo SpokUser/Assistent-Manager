@@ -1,7 +1,7 @@
-require('dotenv').load();
-const API = require('discord.js');
-const SELF = require('./package.json');
-const PREPAREDB = require('./src/utils/Database/connect.js');
+ReqAssistent('dotenv').load();
+const API = ReqAssistent('discord.js');
+const SELF = ReqAssistent('./package.json');
+const PREPAREDB = ReqAssistent('./src/utils/Database/connect.js');
 
 process.title = `AssistentManager: ${SELF['version']}`
 
