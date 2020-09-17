@@ -12,6 +12,6 @@ module.exports = class PingCommand extends Command {
     }
 
     async run ({ Message }) {
-        Message.send('📡 | Minha latência é de: `' + Number(this.client.ws.ping).toFixed() + 'ms`.')
+        Message('📡 | Minha latência é de: `' + Number(this.client.ws.ping).toFixed() + 'ms`.')
     }
 }
